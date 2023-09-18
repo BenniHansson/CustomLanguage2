@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241abdf8-e3c3-440a-8c50-1f8d795d0eed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NewSpeak/CompileNewSpeak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NewSpeak/RunCompiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/antlr_antlr4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/antlr_antlr4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompileNewSpeak.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeak.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeak.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeak.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeakBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeakBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakBaseVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeakLexer.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeakLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeakLexer.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeakListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeakParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grammar/NewSpeakVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/CompileNewSpeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/CompileNewSpeak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/RunCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/RunCompiler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Github/CustomLanguage/src",
+    "last_opened_file_path": "C:/Github/CustomLanguage/Program/add.NewSpeak",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +61,19 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="RunCompiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NewSpeak.RunCompiler" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NewSpeak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="CustomLanguage" />
       <method v="2">
@@ -91,6 +87,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunCompiler" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,11 +102,22 @@
       <option name="presentableId" value="Default" />
       <updated>1694692943337</updated>
       <workItem from="1694692944659" duration="115000" />
-      <workItem from="1694693289662" duration="9895000" />
+      <workItem from="1694693289662" duration="13844000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

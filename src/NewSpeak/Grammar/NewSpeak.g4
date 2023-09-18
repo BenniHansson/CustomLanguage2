@@ -51,9 +51,8 @@ unaryexpression
 print: 'versificator' expr;
 
 expr
-: ID
-| INT
-| addexpression
+: addexpression
+| unaryexpression
 ;
 
 ID: ('a'..'z'|'A'..'Z')+ ;
