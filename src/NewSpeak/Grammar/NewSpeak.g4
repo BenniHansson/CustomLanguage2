@@ -1,8 +1,9 @@
 grammar NewSpeak;
 file
 : code
- EOF
+| EOF
 ;
+
 code
 : statement code
 | statement        // Implicitly defined terminal
@@ -21,7 +22,14 @@ assign
 : ID 'blackwhite' expr;
 
 while
-: 'again' unaryexpression condition unaryexpression code 'unagain'
+: 'again' whilecondition
+code
+'unagain'
+
+;
+
+whilecondition
+: expr* condition expr*
 ;
 
 
@@ -51,3 +59,4 @@ expr
 ID: ('a'..'z'|'A'..'Z')+ ;
 INT: ('0'..'9')+ ;
 WS: [ \n\t\r]+ -> skip;
+Comment: ('//' .*? '\n' | '//' .*? EOF) -> skip;
