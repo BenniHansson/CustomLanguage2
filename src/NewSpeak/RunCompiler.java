@@ -2,6 +2,7 @@ package NewSpeak;
 
 import NewSpeak.Grammar.NewSpeakLexer;
 import NewSpeak.Grammar.NewSpeakParser;
+import NewSpeak.Grammar.Translator;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.tree.ParseTree;
@@ -58,8 +59,11 @@ public class RunCompiler {
 
         // Skriv det kompilerade programmet till en fil
         try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(outFile), StandardCharsets.US_ASCII)) {
-            // writer.write(compiler.getCompiledCode());
+            writer.write(compiler.getCompiled());
         }
+
+        Translator translator = new Translator(outFile, outFile + "_translated.vm");
+        translator.translateAndSave();
     }
 }
 

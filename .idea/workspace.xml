@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241abdf8-e3c3-440a-8c50-1f8d795d0eed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/add" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/Translator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/add.NewSpeak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NewSpeak/CompileNewSpeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/CompileNewSpeak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.g4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakBaseVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NewSpeak/RunCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/RunCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testComp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testComp.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +75,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Github\CustomLanguage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RunCompiler">
     <configuration name="RunCompiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NewSpeak.RunCompiler" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="NewSpeak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Translator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NewSpeak.Grammar.Translator" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NewSpeak.Grammar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,6 +123,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.RunCompiler" />
+        <item itemvalue="Application.Translator" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694692943337</updated>
       <workItem from="1694692944659" duration="115000" />
-      <workItem from="1694693289662" duration="13844000" />
+      <workItem from="1694693289662" duration="29082000" />
     </task>
     <servers />
   </component>

@@ -35,6 +35,30 @@ public interface NewSpeakVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitDecl(NewSpeakParser.DeclContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link NewSpeakParser#expr}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExpr(NewSpeakParser.ExprContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link NewSpeakParser#unaryexpression}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitUnaryexpression(NewSpeakParser.UnaryexpressionContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link NewSpeakParser#addexpression}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitAddexpression(NewSpeakParser.AddexpressionContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link NewSpeakParser#subexpression}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitSubexpression(NewSpeakParser.SubexpressionContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link NewSpeakParser#assign}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -59,27 +83,9 @@ public interface NewSpeakVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitCondition(NewSpeakParser.ConditionContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link NewSpeakParser#addexpression}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitAddexpression(NewSpeakParser.AddexpressionContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link NewSpeakParser#unaryexpression}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitUnaryexpression(NewSpeakParser.UnaryexpressionContext ctx);
-	/**
 	 * Visit a parse tree produced by {@link NewSpeakParser#print}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitPrint(NewSpeakParser.PrintContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link NewSpeakParser#expr}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitExpr(NewSpeakParser.ExprContext ctx);
 }

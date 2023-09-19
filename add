@@ -1,0 +1,40 @@
+artsem Winston
+artsem Julia
+
+
+Winston blackwhite 11
+Julia blackwhite 0
+artsem i
+i blackwhite 0
+artsem j
+
+
+again i ungreater 5
+    i blackwhite i dubleplus 1
+    j blackwhite 0
+    again j ungreater 2
+        j blackwhite j dubleplus 1
+        Julia blackwhite Julia dubleplus i
+
+    unagain
+
+unagain
+
+
+Winston blackwhite Winston dubleunplus Julia
+
+
+versificator Julia
+versificator Winston
+
+
+/*   //Johannes test program:
+target blackwhite 3
+sum blackwhite 0
+counter blackwhite 0
+again counter ungreater target
+    counter blackwhite counter dubleplus 1
+    sum blackwhite sum dubleplus counter
+unagain
+versificator sum
+*/

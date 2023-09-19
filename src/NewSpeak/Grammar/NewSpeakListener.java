@@ -48,6 +48,46 @@ public interface NewSpeakListener extends ParseTreeListener {
 	 */
 	void exitDecl(NewSpeakParser.DeclContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link NewSpeakParser#expr}.
+	 * @param ctx the parse tree
+	 */
+	void enterExpr(NewSpeakParser.ExprContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link NewSpeakParser#expr}.
+	 * @param ctx the parse tree
+	 */
+	void exitExpr(NewSpeakParser.ExprContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link NewSpeakParser#unaryexpression}.
+	 * @param ctx the parse tree
+	 */
+	void enterUnaryexpression(NewSpeakParser.UnaryexpressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link NewSpeakParser#unaryexpression}.
+	 * @param ctx the parse tree
+	 */
+	void exitUnaryexpression(NewSpeakParser.UnaryexpressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link NewSpeakParser#addexpression}.
+	 * @param ctx the parse tree
+	 */
+	void enterAddexpression(NewSpeakParser.AddexpressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link NewSpeakParser#addexpression}.
+	 * @param ctx the parse tree
+	 */
+	void exitAddexpression(NewSpeakParser.AddexpressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link NewSpeakParser#subexpression}.
+	 * @param ctx the parse tree
+	 */
+	void enterSubexpression(NewSpeakParser.SubexpressionContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link NewSpeakParser#subexpression}.
+	 * @param ctx the parse tree
+	 */
+	void exitSubexpression(NewSpeakParser.SubexpressionContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link NewSpeakParser#assign}.
 	 * @param ctx the parse tree
 	 */
@@ -88,26 +128,6 @@ public interface NewSpeakListener extends ParseTreeListener {
 	 */
 	void exitCondition(NewSpeakParser.ConditionContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link NewSpeakParser#addexpression}.
-	 * @param ctx the parse tree
-	 */
-	void enterAddexpression(NewSpeakParser.AddexpressionContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link NewSpeakParser#addexpression}.
-	 * @param ctx the parse tree
-	 */
-	void exitAddexpression(NewSpeakParser.AddexpressionContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link NewSpeakParser#unaryexpression}.
-	 * @param ctx the parse tree
-	 */
-	void enterUnaryexpression(NewSpeakParser.UnaryexpressionContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link NewSpeakParser#unaryexpression}.
-	 * @param ctx the parse tree
-	 */
-	void exitUnaryexpression(NewSpeakParser.UnaryexpressionContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link NewSpeakParser#print}.
 	 * @param ctx the parse tree
 	 */
@@ -117,14 +137,4 @@ public interface NewSpeakListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitPrint(NewSpeakParser.PrintContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link NewSpeakParser#expr}.
-	 * @param ctx the parse tree
-	 */
-	void enterExpr(NewSpeakParser.ExprContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link NewSpeakParser#expr}.
-	 * @param ctx the parse tree
-	 */
-	void exitExpr(NewSpeakParser.ExprContext ctx);
 }

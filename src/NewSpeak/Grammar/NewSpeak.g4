@@ -18,6 +18,25 @@ statement
 
 decl: 'artsem' ID;
 
+expr
+: addexpression
+| subexpression
+| unaryexpression
+;
+
+unaryexpression
+: ID
+| INT
+;
+
+addexpression
+: unaryexpression 'dubleplus' expr
+;
+
+subexpression
+: unaryexpression 'dubleunplus' expr
+;
+
 assign
 : ID 'blackwhite' expr;
 
@@ -25,37 +44,24 @@ while
 : 'again' whilecondition
 code
 'unagain'
-
 ;
+
 
 whilecondition
 : expr* condition expr*
 ;
 
-
 condition
 : 'greater'
 | 'ungreater'
-| 'samegreater'
-| 'sameungreater'
 ;
 
-addexpression
-: unaryexpression 'dubleplus' expr
-;
-
-unaryexpression
-: ID
-| INT
-;
-print: 'versificator' expr;
-
-expr
-: addexpression
-| unaryexpression
-;
+print
+: 'versificator' ID
+| 'versificator' INT;
 
 ID: ('a'..'z'|'A'..'Z')+ ;
 INT: ('0'..'9')+ ;
 WS: [ \n\t\r]+ -> skip;
 Comment: ('//' .*? '\n' | '//' .*? EOF) -> skip;
+MULTILINE: ('/*' .*? '*/') -> skip;
