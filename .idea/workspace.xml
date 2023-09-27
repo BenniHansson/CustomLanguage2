@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241abdf8-e3c3-440a-8c50-1f8d795d0eed" name="Changes" comment="" />
+    <list default="true" id="241abdf8-e3c3-440a-8c50-1f8d795d0eed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +25,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2VO2jG7SqhiKm58f5uvTcaxHFFv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -117,6 +123,7 @@
       <workItem from="1694693289662" duration="29082000" />
       <workItem from="1695206121388" duration="259000" />
       <workItem from="1695293600523" duration="617000" />
+      <workItem from="1695810844696" duration="299000" />
     </task>
     <servers />
   </component>
