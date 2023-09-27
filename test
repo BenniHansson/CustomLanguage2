@@ -6,7 +6,7 @@ push 0
 pop i
 label enterLoop1
 push i
-push 5
+push 2
 lt
 not
 if-goto exitLoop1
@@ -38,5 +38,20 @@ push Winston
 push Julia
 sub
 pop Winston
+push 0
+pop k
+label enterLoop3
+push k
+push 5
+lt
+not
+if-goto exitLoop3
+push k
+push 1
+add
+pop k
+goto enterLoop3
+label exitLoop3
+print k
 print Julia
 print Winston

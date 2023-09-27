@@ -9,7 +9,7 @@ i blackwhite 0
 artsem j
 
 
-again i ungreater 5
+again i ungreater 2
     i blackwhite i dubleplus 1
     j blackwhite 0
     again j ungreater 2
@@ -23,8 +23,12 @@ unagain
 
 Winston blackwhite Winston dubleunplus Julia
 
+k blackwhite 0
 
+again k ungreater 5
+    k blackwhite k dubleplus 1
+unagain
+
+versificator k
 versificator Julia
 versificator Winston
-
-
