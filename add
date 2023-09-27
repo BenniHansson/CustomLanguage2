@@ -28,13 +28,3 @@ versificator Julia
 versificator Winston
 
 
-/*   //Johannes test program:
-target blackwhite 3
-sum blackwhite 0
-counter blackwhite 0
-again counter ungreater target
-    counter blackwhite counter dubleplus 1
-    sum blackwhite sum dubleplus counter
-unagain
-versificator sum
-*/
