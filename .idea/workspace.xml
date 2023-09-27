@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241abdf8-e3c3-440a-8c50-1f8d795d0eed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add" beforeDir="false" afterPath="$PROJECT_DIR$/add" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeak.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewSpeak/Grammar/NewSpeakLexer.interp" afterDir="false" />
-    </list>
+    <list default="true" id="241abdf8-e3c3-440a-8c50-1f8d795d0eed" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +116,7 @@
       <workItem from="1694692944659" duration="115000" />
       <workItem from="1694693289662" duration="29082000" />
       <workItem from="1695804273038" duration="682000" />
-      <workItem from="1695806624539" duration="1345000" />
+      <workItem from="1695806624539" duration="2104000" />
     </task>
     <servers />
   </component>
